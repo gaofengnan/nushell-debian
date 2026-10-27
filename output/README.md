@@ -1,5 +1,7 @@
 # nushell
 
+> Fork of [dariogriffo/nushell-debian](https://github.com/dariogriffo/nushell-debian) (MIT); the original packaging is by Dario Griffo. Served at [deb.gaofn.xyz](https://deb.gaofn.xyz) for Debian 12 (bookworm) and 13 (trixie).
+
 A new type of shell — pipelines operate on structured data instead of raw
 text, with a modern, typed language and first-class support for JSON, CSV,
 SQLite and more.
@@ -11,5 +13,5 @@ Register a plugin from inside nu, e.g.: `plugin add /usr/bin/nu_plugin_query`.
 
 - Upstream: https://github.com/nushell/nushell
 - Documentation: https://www.nushell.sh/book/
-- Packaging: https://github.com/dariogriffo/nushell-debian
-- Repository: https://deb.griffo.io
+- Packaging: https://github.com/gaofengnan/nushell-debian
+- Repository: https://deb.gaofn.xyz

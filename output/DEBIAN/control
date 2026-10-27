@@ -1,8 +1,8 @@
 Section: shells
 Priority: optional
-Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Maintainer: Fengnan Gao <gao.fengnan@gmail.com>
 Homepage: https://www.nushell.sh
 Package: nushell
-Version: nushell_VERSION-BUILD_VERSION~griffo
+Version: nushell_VERSION-BUILD_VERSION~gaofn
 Architecture: SUPPORTED_ARCHITECTURES
 Description: A new type of shell operating on structured data.

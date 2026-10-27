@@ -26,7 +26,7 @@ else
 fi
 
 build_source_package() {
-    local FULL_VERSION="${nushell_VERSION}-${BUILD_VERSION}~griffo"
+    local FULL_VERSION="${nushell_VERSION}-${BUILD_VERSION}~gaofn"
 
     echo "  Building source package ${FULL_VERSION}..."
 
@@ -44,7 +44,7 @@ nushell (${FULL_VERSION}) stable; urgency=medium
 
   * New upstream release ${nushell_VERSION}.
 
- -- Dario Griffo <dariogriffo@gmail.com>  $(date -R)
+ -- Fengnan Gao <gao.fengnan@gmail.com>  $(date -R)
 EOF
 
     # Build source package (.dsc + .debian.tar.xz); reuses existing .orig.tar.gz
